@@ -12,18 +12,9 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| [830-Point Solderless Breadboard](https://robu.in/product/830-points-solderless-breadboard/) | Main prototyping and assembly platform | 1 | $3.80 | $3.80 | [Robu](https://robu.in/product/830-points-solderless-breadboard/) |
-| [Male-to-Male Dupont Jumper Wires 20cm (40 pcs)](https://robu.in/product/40-pcs-male-to-male-dupont-cable-20cm/) | Breadboard-to-breadboard signal and power connections | 1 | $2.60 | $2.60 | [Robu](https://robu.in/product/40-pcs-male-to-male-dupont-cable-20cm/) |
-| [Male-to-Female Dupont Jumper Wires 20cm (40 pcs)](https://robu.in/product/40-pcs-male-to-female-dupont-cable-20cm/) | Sensor and display module connections to breadboard | 1 | $2.60 | $2.60 | [Robu](https://robu.in/product/40-pcs-male-to-female-dupont-cable-20cm/) |
-| [Micro USB Data Cable 1m](https://robu.in/product/micro-usb-cable/) | ESP32 power supply and firmware upload cable | 1 | $2.80 | $2.80 | [Robu](https://robu.in/product/micro-usb-cable/) |
-| [Custom 3D Printed Enclosure — Base Shell (PLA opaque)](https://www.3ding.in/) | Custom 3D printed base shell housing all electronics and sensors | 1 | $5.50 | $5.50 | [3ding](https://www.3ding.in/) |
-| [Custom 3D Printed Enclosure — Diffuser Cap (Translucent PETG)](https://www.3ding.in/) | Custom 3D printed translucent diffuser cap for soft even light output | 1 | $4.20 | $4.20 | [3ding](https://www.3ding.in/) |
-| 3D Printing Order Shipping and Handling | Delivery charges for custom 3D printed enclosure parts | 1 | $3.50 | $3.50 | — |
-| [M2 Brass Standoff Spacer and Screw Assortment Kit](https://robu.in/product/m2-standoff-kit/) | PCB mounting standoffs and screws for securing ESP32 inside enclosure | 1 | $2.50 | $2.50 | [Robu](https://robu.in/product/m2-standoff-kit/) |
-| [Prototype Perfboard PCB 5x7cm Double-Sided (pack of 3)](https://robu.in/product/5x7cm-prototype-pcb/) | Soldered final assembly board for permanent wiring | 1 | $2.80 | $2.80 | [Robu](https://robu.in/product/5x7cm-prototype-pcb/) |
 | [Heat Shrink Tubing Assortment Kit (various diameters)](https://robu.in/product/heat-shrink-tubing/) | Wire insulation joints and strain relief for clean wiring | 1 | $1.80 | $1.80 | [Robu](https://robu.in/product/heat-shrink-tubing/) |
-| **Parts subtotal** | — | — | — | **$32.10** | — |
+| **Parts subtotal** | — | — | — | **$1.80** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$32.10** | — |
+| **Total** | — | — | — | **$1.80** | — |
 
-$32.90 left of the tier's funding.
+$63.20 left of the tier's funding.
