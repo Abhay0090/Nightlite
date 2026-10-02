@@ -28,9 +28,8 @@
 | [3D Printing Order Shipping and Handling](https://www.3ding.in/) | Delivery charges for custom 3D printed enclosure parts | 1 | $3.50 | $3.50 | [3ding](https://www.3ding.in/) |
 | [M2 Brass Standoff Spacer and Screw Assortment Kit](https://www.amazon.in/s?k=M2+Brass+Standoff+Spacer+Kit) | PCB mounting standoffs and screws for securing ESP32 inside enclosure | 1 | $3.50 | $3.50 | [Amazon](https://www.amazon.in/s?k=M2+Brass+Standoff+Spacer+Kit) |
 | [Prototype Perfboard PCB 5x7cm Double-Sided (pack of 3)](https://www.amazon.in/s?k=Prototype+Perfboard+PCB+5x7cm) | Soldered final assembly board for permanent wiring | 1 | $3.50 | $3.50 | [Amazon](https://www.amazon.in/s?k=Prototype+Perfboard+PCB+5x7cm) |
-| [Heat Shrink Tubing Assortment Kit (various diameters)](https://www.amazon.in/s?k=Heat+Shrink+Tubing+Assortment+Kit) | Wire insulation joints and strain relief for clean wiring | 1 | $2.50 | $2.50 | [Amazon](https://www.amazon.in/s?k=Heat+Shrink+Tubing+Assortment+Kit) |
-| **Parts subtotal** | — | — | — | **$63.70** | — |
+| **Parts subtotal** | — | — | — | **$61.20** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$63.70** | — |
+| **Total** | — | — | — | **$61.20** | — |
 
-$1.30 left of the tier's funding.
+$3.80 left of the tier's funding.
