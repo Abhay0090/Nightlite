@@ -18,7 +18,6 @@
 | [LDR Photoresistor GL5516 5mm (5-pack)](https://www.amazon.in/s?k=LDR+GL5516+Photoresistor) | Ambient light sensing through analog voltage divider circuit | 1 | $3.00 | $3.00 | [Amazon](https://www.amazon.in/s?k=LDR+GL5516+Photoresistor) |
 | [10kΩ Carbon Film Resistor 1/4W (pack of 20)](https://www.amazon.in/s?k=10k+ohm+resistor+1%2F4W) | Pull-down resistor for LDR voltage divider and spare resistors | 1 | $2.00 | $2.00 | [Amazon](https://www.amazon.in/s?k=10k+ohm+resistor+1%2F4W) |
 | [220Ω Carbon Film Resistor 1/4W (pack of 20)](https://www.amazon.in/s?k=220+ohm+resistor+1%2F4W) | MOSFET gate current-limiting resistor and spare LED protection resistors | 1 | $2.00 | $2.00 | [Amazon](https://www.amazon.in/s?k=220+ohm+resistor+1%2F4W) |
-| [5V USB LED Light Strip 30cm Warm White](https://www.amazon.in/s?k=5V+USB+LED+Light+Strip) | Primary warm white light source switched via MOSFET PWM | 1 | $4.50 | $4.50 | [Amazon](https://www.amazon.in/s?k=5V+USB+LED+Light+Strip) |
 | [Tactile Push Button Switch 6x6x5mm (pack of 10)](https://www.amazon.in/s?k=Tactile+Push+Button+Switch+6x6x5mm) | Three buttons for mode toggle brightness up and brightness down controls | 1 | $2.50 | $2.50 | [Amazon](https://www.amazon.in/s?k=Tactile+Push+Button+Switch+6x6x5mm) |
 | [830-Point Solderless Breadboard](https://www.amazon.in/s?k=830+Point+Solderless+Breadboard) | Main prototyping and assembly platform | 1 | $4.50 | $4.50 | [Amazon](https://www.amazon.in/s?k=830+Point+Solderless+Breadboard) |
 | [Male-to-Male Dupont Jumper Wires 20cm (40 pcs)](https://www.amazon.in/s?k=Dupont+Jumper+Wires+Male+to+Male) | Breadboard-to-breadboard signal and power connections | 1 | $3.00 | $3.00 | [Amazon](https://www.amazon.in/s?k=Dupont+Jumper+Wires+Male+to+Male) |
@@ -30,8 +29,8 @@
 | [M2 Brass Standoff Spacer and Screw Assortment Kit](https://www.amazon.in/s?k=M2+Brass+Standoff+Spacer+Kit) | PCB mounting standoffs and screws for securing ESP32 inside enclosure | 1 | $3.50 | $3.50 | [Amazon](https://www.amazon.in/s?k=M2+Brass+Standoff+Spacer+Kit) |
 | [Prototype Perfboard PCB 5x7cm Double-Sided (pack of 3)](https://www.amazon.in/s?k=Prototype+Perfboard+PCB+5x7cm) | Soldered final assembly board for permanent wiring | 1 | $3.50 | $3.50 | [Amazon](https://www.amazon.in/s?k=Prototype+Perfboard+PCB+5x7cm) |
 | [Heat Shrink Tubing Assortment Kit (various diameters)](https://www.amazon.in/s?k=Heat+Shrink+Tubing+Assortment+Kit) | Wire insulation joints and strain relief for clean wiring | 1 | $2.50 | $2.50 | [Amazon](https://www.amazon.in/s?k=Heat+Shrink+Tubing+Assortment+Kit) |
-| **Parts subtotal** | — | — | — | **$68.20** | — |
+| **Parts subtotal** | — | — | — | **$63.70** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$68.20** | — |
+| **Total** | — | — | — | **$63.70** | — |
 
-**$3.20 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+$1.30 left of the tier's funding.
