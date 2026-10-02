@@ -1,0 +1,14 @@
+Name,Cost,Link,Purpose
+ESP32 DevKit V1,8.99,https://www.amazon.in/s?k=ESP32+DevKit+V1,Main microcontroller and Wi-Fi capable controller
+0.96 inch SSD1306 OLED I2C,3.99,https://www.amazon.in/s?k=0.96+SSD1306+OLED+I2C,Displays ambient light motion lamp level and mode
+HC-SR501 PIR Motion Sensor,1.99,https://www.amazon.in/s?k=HC-SR501+PIR+motion+sensor,Detects motion in the room
+LDR Photoresistor,0.50,https://www.amazon.in/s?k=LDR+photoresistor,Measures ambient light level
+10k Ohm Resistors Pack,1.00,https://www.amazon.in/s?k=10k+resistor+pack,Forms the LDR voltage divider
+220 Ohm Resistors Pack,1.00,https://www.amazon.in/s?k=220+ohm+resistor+pack,LED current limiting and signal protection
+AO3400A Logic Level N MOSFET,1.50,https://www.amazon.in/s?k=AO3400A+MOSFET,Low-side PWM switching for the lamp
+Tactile Push Buttons Pack,1.00,https://www.amazon.in/s?k=tactile+push+button+6x6,User controls for mode and brightness
+High Brightness LED Lamp,3.00,https://www.amazon.in/s?k=5V+LED+lamp+module,5V light source controlled by the MOSFET
+Breadboard,3.00,https://www.amazon.in/s?k=830+point+breadboard,Prototype assembly
+Jumper Wires,2.00,https://www.amazon.in/s?k=jumper+wires+male+female,Prototype wiring
+Perfboard,2.00,https://www.amazon.in/s?k=prototype+perfboard,Optional compact final assembly
+3D Printed Enclosure Material,5.00,https://www.amazon.in/s?k=PLA+3D+printing+filament,Desk lamp enclosure and diffuser structure
