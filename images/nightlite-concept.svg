@@ -1,24 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
-<rect width="1200" height="700" fill="#f5f5f5"/>
-<rect x="360" y="90" width="480" height="520" rx="40" fill="#222" stroke="#555" stroke-width="8"/>
-<rect x="455" y="145" width="290" height="125" rx="12" fill="#071a12" stroke="#aaa" stroke-width="5"/>
-<text x="600" y="185" text-anchor="middle" font-family="Arial" font-size="28" fill="white">NIGHTLITE</text>
-<text x="600" y="220" text-anchor="middle" font-family="Arial" font-size="22" fill="white">Light 18% • Motion YES</text>
-<text x="600" y="250" text-anchor="middle" font-family="Arial" font-size="22" fill="white">Lamp 100% • AUTO</text>
-<circle cx="430" cy="350" r="28" fill="#ddd"/>
-<circle cx="500" cy="350" r="28" fill="#ddd"/>
-<circle cx="570" cy="350" r="28" fill="#ddd"/>
-<rect x="445" y="425" width="310" height="95" rx="45" fill="#eee"/>
-<circle cx="600" cy="472" r="48" fill="#fff3a6" stroke="#777" stroke-width="5"/>
-<path d="M540 525 Q600 650 660 525" fill="#fff3a6" stroke="#777" stroke-width="5"/>
-<text x="600" y="665" text-anchor="middle" font-family="Arial" font-size="24" fill="#222">ESP32 • LDR • PIR • OLED • PWM LED</text>
-<text x="55" y="165" font-family="Arial" font-size="26" fill="#222">LDR</text>
-<text x="55" y="200" font-family="Arial" font-size="20" fill="#555">Ambient light</text>
-<line x1="160" y1="190" x2="350" y2="220" stroke="#555" stroke-width="4"/>
-<text x="875" y="165" font-family="Arial" font-size="26" fill="#222">PIR</text>
-<text x="875" y="200" font-family="Arial" font-size="20" fill="#555">Motion sensing</text>
-<line x1="850" y1="190" x2="760" y2="260" stroke="#555" stroke-width="4"/>
-<text x="875" y="410" font-family="Arial" font-size="26" fill="#222">PWM lamp</text>
-<text x="875" y="445" font-family="Arial" font-size="20" fill="#555">MOSFET switched</text>
-<line x1="850" y1="430" x2="755" y2="455" stroke="#555" stroke-width="4"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#18233d"/></linearGradient>
+  <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#303847"/><stop offset="1" stop-color="#151a24"/></linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fffbd6"/><stop offset="1" stop-color="#ffd45a"/></linearGradient>
+  <filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="28"/></filter>
+</defs>
+<rect width="1400" height="900" fill="url(#bg)"/>
+<ellipse cx="700" cy="805" rx="390" ry="42" fill="#000" opacity=".45" filter="url(#shadow)"/>
+
+<!-- warm lamp glow -->
+<ellipse cx="700" cy="575" rx="285" ry="250" fill="#ffd95c" opacity=".10" filter="url(#soft)"/>
+
+<!-- enclosure -->
+<rect x="445" y="110" width="510" height="650" rx="58" fill="url(#body)" stroke="#4d586c" stroke-width="4"/>
+<rect x="468" y="133" width="464" height="604" rx="42" fill="none" stroke="#111722" stroke-width="3"/>
+
+<!-- OLED -->
+<rect x="535" y="175" width="330" height="155" rx="18" fill="#06120f" stroke="#8a95a8" stroke-width="5"/>
+<rect x="552" y="192" width="296" height="121" rx="9" fill="#071d16"/>
+<text x="700" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#f3fff8">NIGHTLITE</text>
+<text x="700" y="258" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#d5f7e5">LIGHT 18%   •   MOTION</text>
+<text x="700" y="288" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#d5f7e5">LAMP 100%   •   AUTO</text>
+
+<!-- sensor windows -->
+<circle cx="525" cy="390" r="25" fill="#0d1119" stroke="#657084" stroke-width="4"/>
+<circle cx="875" cy="390" r="25" fill="#0d1119" stroke="#657084" stroke-width="4"/>
+<text x="525" y="397" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#aeb9c9">LDR</text>
+<text x="875" y="397" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#aeb9c9">PIR</text>
+
+<!-- buttons -->
+<circle cx="575" cy="470" r="28" fill="#d9dee8" stroke="#7b879a" stroke-width="4"/>
+<circle cx="700" cy="470" r="28" fill="#d9dee8" stroke="#7b879a" stroke-width="4"/>
+<circle cx="825" cy="470" r="28" fill="#d9dee8" stroke="#7b879a" stroke-width="4"/>
+<text x="575" y="478" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#293241">M</text>
+<text x="700" y="478" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#293241">+</text>
+<text x="825" y="478" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#293241">−</text>
+
+<!-- diffuser -->
+<path d="M555 565 Q700 515 845 565 L800 700 Q700 735 600 700 Z" fill="url(#glow)" stroke="#f0d36b" stroke-width="5"/>
+<ellipse cx="700" cy="580" rx="135" ry="35" fill="#fffde0" opacity=".72"/>
+<path d="M610 650 Q700 690 790 650" fill="none" stroke="#fff7b0" stroke-width="10" opacity=".7"/>
+
+<!-- USB -->
+<rect x="650" y="750" width="100" height="24" rx="7" fill="#0b0e14" stroke="#677286" stroke-width="3"/>
+<text x="700" y="795" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#b8c1d0">USB 5V POWER</text>
+
+<!-- callouts -->
+<g font-family="Arial,sans-serif">
+<line x1="445" y1="390" x2="180" y2="315" stroke="#9ba8bd" stroke-width="3"/>
+<circle cx="180" cy="315" r="6" fill="#ffd45a"/>
+<text x="70" y="275" font-size="27" font-weight="700" fill="white">LDR SENSOR</text>
+<text x="70" y="308" font-size="20" fill="#b8c1d0">Measures ambient light</text>
+
+<line x1="955" y1="390" x2="1215" y2="315" stroke="#9ba8bd" stroke-width="3"/>
+<circle cx="1215" cy="315" r="6" fill="#ffd45a"/>
+<text x="1050" y="275" font-size="27" font-weight="700" fill="white">PIR SENSOR</text>
+<text x="1050" y="308" font-size="20" fill="#b8c1d0">Detects nearby motion</text>
+
+<line x1="445" y1="620" x2="165" y2="660" stroke="#9ba8bd" stroke-width="3"/>
+<circle cx="165" cy="660" r="6" fill="#ffd45a"/>
+<text x="70" y="620" font-size="27" font-weight="700" fill="white">DIFFUSER</text>
+<text x="70" y="653" font-size="20" fill="#b8c1d0">Soft 5V LED illumination</text>
+
+<line x1="955" y1="470" x2="1220" y2="555" stroke="#9ba8bd" stroke-width="3"/>
+<circle cx="1220" cy="555" r="6" fill="#ffd45a"/>
+<text x="1050" y="520" font-size="27" font-weight="700" fill="white">3 BUTTON UI</text>
+<text x="1050" y="553" font-size="20" fill="#b8c1d0">Mode + brightness control</text>
+</g>
+
+<text x="700" y="60" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="white">NightLite — Product Concept</text>
+<text x="700" y="865" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#8f9caf">ESP32 • LDR • PIR • OLED • MOSFET PWM • 5V LED</text>
 </svg>
