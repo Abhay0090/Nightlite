@@ -13,10 +13,9 @@
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
 | [ESP32 DevKit V1](https://thinkingrobot.in/products/esp32-wroom-32-devkit-v1-wi-fi-bluetooth-iot-board) | Main ESP32-WROOM-32 controller with WiFi and Bluetooth | 1 | $7.00 | $7.00 | [Thinkingrobot](https://thinkingrobot.in/products/esp32-wroom-32-devkit-v1-wi-fi-bluetooth-iot-board) |
-| [Micro USB Cable](https://robu.in/product/micro-usb-cable/) | Power and programming for ESP32 | 1 | $0.80 | $0.80 | [Robu](https://robu.in/product/micro-usb-cable/) |
 | PLA Filament (estimated for enclosure) | 3D printing material for the custom enclosure (approx 40g) | 1 | $1.50 | $1.50 | — |
-| **Parts subtotal** | — | — | — | **$9.30** | — |
+| **Parts subtotal** | — | — | — | **$8.50** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$9.30** | — |
+| **Total** | — | — | — | **$8.50** | — |
 
-$55.70 left of the tier's funding.
+$56.50 left of the tier's funding.
