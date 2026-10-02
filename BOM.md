@@ -12,14 +12,6 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| [0.96 inch SSD1306 OLED Display I2C 128x64](https://robu.in/product/0-96-inch-i2c-iic-oled-lcd-module-4pin-with-vcc-gnd-blue/) | Status dashboard display for showing light level motion lamp output and mode | 1 | $4.75 | $4.75 | [Robu](https://robu.in/product/0-96-inch-i2c-iic-oled-lcd-module-4pin-with-vcc-gnd-blue/) |
-| [HC-SR501 PIR Motion Sensor Module](https://robu.in/product/pir-motion-sensor-detector-module-hc-sr501/) | Passive infrared motion detection with adjustable sensitivity and hold time | 1 | $3.20 | $3.20 | [Robu](https://robu.in/product/pir-motion-sensor-detector-module-hc-sr501/) |
-| [LDR Photoresistor GL5516 5mm (5-pack)](https://robu.in/product/4mm-ldr-sensor-photoresistor-photo-cell-5-10k-gl4516/) | Ambient light sensing through analog voltage divider circuit | 1 | $2.40 | $2.40 | [Robu](https://robu.in/product/4mm-ldr-sensor-photoresistor-photo-cell-5-10k-gl4516/) |
-| [10kΩ Carbon Film Resistor 1/4W (pack of 20)](https://robu.in/product/10k-ohm-0-25w-carbon-film-resistor/) | Pull-down resistor for LDR voltage divider and spare resistors | 1 | $1.80 | $1.80 | [Robu](https://robu.in/product/10k-ohm-0-25w-carbon-film-resistor/) |
-| [220Ω Carbon Film Resistor 1/4W (pack of 20)](https://robu.in/product/220-ohm-0-25w-carbon-film-resistor/) | MOSFET gate current-limiting resistor and spare LED protection resistors | 1 | $1.80 | $1.80 | [Robu](https://robu.in/product/220-ohm-0-25w-carbon-film-resistor/) |
-| [AO3400A N-Channel MOSFET SOT-23 (pack of 5)](https://robu.in/product/ao3400a-n-channel-mosfet/) | Logic-level N-channel MOSFET for low-side PWM lamp switching at 3.3V gate drive | 1 | $2.80 | $2.80 | [Robu](https://robu.in/product/ao3400a-n-channel-mosfet/) |
-| [5V USB LED Light Strip 30cm Warm White](https://robu.in/product/5v-led-light/) | Primary warm white light source switched via MOSFET PWM | 1 | $3.50 | $3.50 | [Robu](https://robu.in/product/5v-led-light/) |
-| [Tactile Push Button Switch 6x6x5mm (pack of 10)](https://robu.in/product/6x6x5-mm-tactile-push-button-switch/) | Three buttons for mode toggle brightness up and brightness down controls | 1 | $2.20 | $2.20 | [Robu](https://robu.in/product/6x6x5-mm-tactile-push-button-switch/) |
 | [830-Point Solderless Breadboard](https://robu.in/product/830-points-solderless-breadboard/) | Main prototyping and assembly platform | 1 | $3.80 | $3.80 | [Robu](https://robu.in/product/830-points-solderless-breadboard/) |
 | [Male-to-Male Dupont Jumper Wires 20cm (40 pcs)](https://robu.in/product/40-pcs-male-to-male-dupont-cable-20cm/) | Breadboard-to-breadboard signal and power connections | 1 | $2.60 | $2.60 | [Robu](https://robu.in/product/40-pcs-male-to-male-dupont-cable-20cm/) |
 | [Male-to-Female Dupont Jumper Wires 20cm (40 pcs)](https://robu.in/product/40-pcs-male-to-female-dupont-cable-20cm/) | Sensor and display module connections to breadboard | 1 | $2.60 | $2.60 | [Robu](https://robu.in/product/40-pcs-male-to-female-dupont-cable-20cm/) |
@@ -30,8 +22,8 @@
 | [M2 Brass Standoff Spacer and Screw Assortment Kit](https://robu.in/product/m2-standoff-kit/) | PCB mounting standoffs and screws for securing ESP32 inside enclosure | 1 | $2.50 | $2.50 | [Robu](https://robu.in/product/m2-standoff-kit/) |
 | [Prototype Perfboard PCB 5x7cm Double-Sided (pack of 3)](https://robu.in/product/5x7cm-prototype-pcb/) | Soldered final assembly board for permanent wiring | 1 | $2.80 | $2.80 | [Robu](https://robu.in/product/5x7cm-prototype-pcb/) |
 | [Heat Shrink Tubing Assortment Kit (various diameters)](https://robu.in/product/heat-shrink-tubing/) | Wire insulation joints and strain relief for clean wiring | 1 | $1.80 | $1.80 | [Robu](https://robu.in/product/heat-shrink-tubing/) |
-| **Parts subtotal** | — | — | — | **$54.55** | — |
+| **Parts subtotal** | — | — | — | **$32.10** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$54.55** | — |
+| **Total** | — | — | — | **$32.10** | — |
 
-$10.45 left of the tier's funding.
+$32.90 left of the tier's funding.
