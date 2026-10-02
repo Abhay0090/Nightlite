@@ -1,14 +1,14 @@
-Name,Cost,Link,Purpose
-ESP32 DevKit V1,5.00,https://thinkingrobot.in/products/esp32-wroom-32-devkit-v1-wi-fi-bluetooth-iot-board,Main ESP32-WROOM-32 controller
-0.96 inch SSD1306 OLED I2C,2.24,https://robu.in/product-category/oled-display/,OLED status dashboard for light motion lamp level and mode
-HC-SR501 PIR Motion Sensor,0.63,https://robu.in/product/pir-motion-sensor-detector-module-hc-sr501/,Detects human motion for automatic lighting
-LDR Photoresistor,0.18,https://robu.in/product/4mm-ldr-sensor-photoresistor-photo-cell-5-10k-gl4516,Measures ambient light through an analog voltage divider
-10k Ohm Resistor,0.01,https://robu.in/product-category/electronic-components/resistors/carbon-resistors/,LDR voltage-divider resistor
-220 Ohm Resistors,0.01,https://robu.in/product-category/electronic-components/resistors/film-resistors/,Spare LED or signal protection resistor for prototype work
-AO3400A Logic Level N MOSFET,0.17,https://www.amazon.in/s?k=AO3400A+MOSFET,Low-side PWM switching for the 5V lamp load
-Tactile Push Buttons Pack,0.11,https://www.amazon.in/s?k=6x6+tactile+push+button+pack,Mode and brightness controls
-5V White LED Lamp or LED Module,2.32,https://robu.in/product/acebott-white-led-module-easy-plug-compatible-with-esp32-arduino/,5V light source driven by the MOSFET
-830 Point Solderless Breadboard,0.60,https://robu.in/product-category/breadboard-and-zero-pcb/,Initial circuit prototyping
-Jumper Wires,0.67,https://robu.in/product-tag/jumper-wire/,Temporary breadboard interconnects
-4x6 cm Double-Sided Prototype PCB,0.23,https://robu.in/product-category/breadboard-and-zero-pcb/,Optional compact soldered prototype
-3D Printed Enclosure Material,1.67,https://www.amazon.in/s?k=PLA+3D+printing+filament+1.75mm,Custom enclosure and diffuser structure
+Name,Qty,Cost,Link,Purpose
+ESP32 DevKit V1,1,5.00,https://thinkingrobot.in/products/esp32-wroom-32-devkit-v1-wi-fi-bluetooth-iot-board,Main ESP32-WROOM-32 controller with WiFi and Bluetooth
+0.96 inch SSD1306 OLED I2C Display,1,2.24,https://robu.in/product/0-96-inch-i2c-iic-oled-lcd-module-4pin-with-vcc-gnd-blue/,OLED status dashboard showing light level motion status lamp output and mode
+HC-SR501 PIR Motion Sensor,1,0.63,https://robu.in/product/pir-motion-sensor-detector-module-hc-sr501/,Detects human motion for automatic lighting activation
+LDR Photoresistor (GL5516),1,0.18,https://robu.in/product/4mm-ldr-sensor-photoresistor-photo-cell-5-10k-gl4516/,Measures ambient light through an analog voltage divider
+10k Ohm Resistor (1/4W),1,0.01,https://robu.in/product/10k-ohm-0-25w-carbon-film-resistor/,LDR voltage divider pull-down resistor
+220 Ohm Resistor (1/4W),1,0.01,https://robu.in/product/220-ohm-0-25w-carbon-film-resistor/,MOSFET gate current-limiting resistor
+AO3400A N-Channel MOSFET (SOT-23),1,0.15,https://robu.in/product/ao3400a-n-channel-mosfet/,Logic-level MOSFET for PWM lamp switching
+5V USB LED Lamp Module,1,1.20,https://robu.in/product/5v-led-light/,Primary light source switched by MOSFET
+Tactile Push Button (6x6mm),3,0.09,https://robu.in/product/6x6x5-mm-tactile-push-button-switch/,Mode toggle and brightness up/down controls (3 buttons)
+Breadboard (830 point),1,1.50,https://robu.in/product/830-points-solderless-breadboard/,Prototyping platform for initial assembly
+Jumper Wire Kit (M-M and M-F),1,1.20,https://robu.in/product/40-pcs-male-to-male-dupont-cable-20cm/,Connections between components on breadboard
+Micro USB Cable,1,0.80,https://robu.in/product/micro-usb-cable/,Power and programming for ESP32
+PLA Filament (estimated for enclosure),1,1.50,,3D printing material for the custom enclosure (approx 40g)
