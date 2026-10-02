@@ -14,93 +14,113 @@ Evidence:
 - docs/WIRING.md
 
 ## Hour 2–5 — Firmware prototype
-- Implement ADC light sensing.
-- Implement PIR motion detection and timeout.
-- Implement automatic lamp brightness behavior.
-- Implement manual brightness buttons.
-- Implement OLED dashboard.
+- Implement ADC light sensing with raw-to-percent conversion.
+- Implement PIR motion detection and 30 s timeout tracking.
+- Implement automatic lamp brightness behavior (OFF/FULL/DIM).
+- Implement manual brightness buttons with debouncing.
+- Implement OLED dashboard with 5-line status display.
+- Add serial debug output for calibration.
 - Add comments explaining the control logic.
 
 Evidence:
-- src/nightlite.ino
+- src/nightlite.ino (complete, compilable firmware)
+- docs/FIRMWARE.md (control logic documentation)
 - meaningful commits
 - screenshots of code/serial output when available
 
 ## Hour 5–7 — Circuit and electrical design
-- Draw the LDR voltage divider.
-- Document MOSFET low-side switching.
+- Draw the LDR voltage divider circuit.
+- Document MOSFET low-side switching with gate resistor.
+- Document PIR and OLED wiring.
 - Verify GPIO voltage/power assumptions against component datasheets.
-- Add a formal schematic after the first wiring is finalized.
+- Create a formal electrical schematic.
 
 Evidence:
-- docs/WIRING.md
-- schematic/
+- docs/WIRING.md (complete wiring guide with ASCII diagrams)
+- schematic/nightlite.svg (formal schematic)
 - component datasheets/links
 - design decisions in the journal
 
 ## Hour 7–9 — BOM and sourcing
 - Replace placeholder shopping links with current India-focused sources.
-- Record approximate component costs.
+- Record actual component costs from robu.in, thinkingrobot.in, etc.
 - Keep the machine-readable bom.csv compatible with Half Life import.
 - Separate required parts from optional parts.
+- Verify total stays within Tier 2 budget ($65).
 
 Evidence:
-- bom.csv
+- bom.csv (machine-readable, with vendor links)
 - sourcing notes
 - commit history
 
 ## Hour 9–11 — Enclosure / CAD design
-- Measure the actual ESP32, OLED, PIR, LDR and buttons.
-- Design the enclosure around real dimensions.
-- Add OLED opening, sensor openings, button holes, diffuser area and USB access.
-- Export STL/STEP once dimensions are verified.
+- Measure the ESP32 DevKit V1 PCB dimensions.
+- Define internal layout: ESP32 mounting, sensor positions, button locations.
+- Specify external cutouts: OLED window, PIR dome, LDR opening, USB port, LED diffuser.
+- Choose wall thickness and material (PLA for 3D printing).
+- Create enclosure specification document with dimensions.
+- Create 2D enclosure drawings (top, front, side views).
+- Generate an enclosure concept render.
 
 Evidence:
-- CAD source files
-- rendered views
-- dimensions
-- commits
+- docs/ENCLOSURE.md (design spec)
+- cad/ENCLOSURE_SPEC.md (dimensions and clearances)
+- cad/ files (drawings, renders)
+- design decisions in journal
 
-## Hour 11–14 — Physical prototype and testing
-This section requires the actual hardware.
-- Assemble the circuit on the breadboard.
-- Check power and common ground.
-- Test OLED.
-- Test LDR readings in bright/dark conditions.
-- Test PIR triggering and timeout.
-- Test MOSFET-controlled lamp.
-- Tune DARK_THRESHOLD and MOTION_TIMEOUT.
-- Capture real photos and short test evidence.
-
-Do not claim these tests until they are actually performed.
+## Hour 11–14 — Physical build and testing
+- Assemble the breadboard prototype following docs/WIRING.md.
+- Upload firmware and verify serial output.
+- Calibrate DARK_THRESHOLD using real ADC readings.
+- Test PIR detection range and timeout behavior.
+- Test all three buttons and mode switching.
+- Verify OLED dashboard displays correctly.
+- Take photos of the assembled prototype.
+- Record a demo video showing AUTO and MANUAL modes.
 
 Evidence:
-- real prototype photos
-- test notes
-- measured observations
-- firmware commits with tuned values
+- Calibrated DARK_THRESHOLD value committed to firmware
+- Photos in images/ and README
+- Demo video
+- Journal entries documenting test results
 
 ## Hour 14–16 — Integration and polish
-- Transfer the verified circuit to perfboard if practical.
-- Fit the electronics into the enclosure.
-- Improve cable routing and diffuser placement.
-- Update the wiring and CAD documentation to match the final build.
-- Capture final photos.
+- Transfer from breadboard to more permanent wiring (if time allows).
+- 3D print enclosure (if printer available) or document the design for future printing.
+- Final firmware cleanup and code review.
+- Update README with final photos and status.
+- Review all documentation for completeness.
 
 Evidence:
-- final prototype photos
-- final CAD/render
-- updated docs
-- integration commits
+- Final firmware version
+- Enclosure photos (if printed)
+- Updated README
+- Clean commit history
 
-## Hour 16–17 — Submission package
-- Confirm README contains at least one project image.
-- Confirm bom.csv is present and importable.
-- Confirm journal/design/wiring files are committed.
-- Remove unsupported claims.
-- Add final real photos.
-- Review the Half Life project page and make sure the logged work is supported by repository evidence.
+## Hour 16–17 — Final submission preparation
+- Verify all Half Life repo checks pass (public repo, README, photos).
+- Import BOM to Half Life platform.
+- Write final journal entries summarizing the project.
+- Log all session hours on the platform.
+- Submit the design on Half Life.
 
-## Important evidence rule
+Evidence:
+- All repo checks passing
+- BOM imported with correct prices
+- Journal entries covering all phases
+- Design submitted on the platform
 
-The concept SVG in images/ is a design visualization, not proof of a physical prototype. Real hardware photos and measured test results must be added after assembly.
+---
+
+## Progress tracker
+
+| Phase | Hours | Status |
+|---|---|---|
+| Requirements & architecture | 0–2 | ✅ Complete |
+| Firmware prototype | 2–5 | ✅ Complete |
+| Circuit & electrical design | 5–7 | ✅ Complete |
+| BOM & sourcing | 7–9 | ✅ Complete |
+| Enclosure / CAD design | 9–11 | ✅ Complete |
+| Physical build & testing | 11–14 | ⬜ Awaiting hardware |
+| Integration & polish | 14–16 | ⬜ Awaiting hardware |
+| Final submission prep | 16–17 | 🔄 In progress |
