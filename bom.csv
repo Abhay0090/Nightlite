@@ -1,14 +1,20 @@
 Name,Qty,Cost,Link,Purpose
-ESP32 DevKit V1,1,5.00,https://thinkingrobot.in/products/esp32-wroom-32-devkit-v1-wi-fi-bluetooth-iot-board,Main ESP32-WROOM-32 controller with WiFi and Bluetooth
-0.96 inch SSD1306 OLED I2C Display,1,2.24,https://robu.in/product/0-96-inch-i2c-iic-oled-lcd-module-4pin-with-vcc-gnd-blue/,OLED status dashboard showing light level motion status lamp output and mode
-HC-SR501 PIR Motion Sensor,1,0.63,https://robu.in/product/pir-motion-sensor-detector-module-hc-sr501/,Detects human motion for automatic lighting activation
-LDR Photoresistor (GL5516),1,0.18,https://robu.in/product/4mm-ldr-sensor-photoresistor-photo-cell-5-10k-gl4516/,Measures ambient light through an analog voltage divider
-10k Ohm Resistor (1/4W),1,0.01,https://robu.in/product/10k-ohm-0-25w-carbon-film-resistor/,LDR voltage divider pull-down resistor
-220 Ohm Resistor (1/4W),1,0.01,https://robu.in/product/220-ohm-0-25w-carbon-film-resistor/,MOSFET gate current-limiting resistor
-AO3400A N-Channel MOSFET (SOT-23),1,0.15,https://robu.in/product/ao3400a-n-channel-mosfet/,Logic-level MOSFET for PWM lamp switching
-5V USB LED Lamp Module,1,1.20,https://robu.in/product/5v-led-light/,Primary light source switched by MOSFET
-Tactile Push Button (6x6mm),3,0.09,https://robu.in/product/6x6x5-mm-tactile-push-button-switch/,Mode toggle and brightness up/down controls (3 buttons)
-Breadboard (830 point),1,1.50,https://robu.in/product/830-points-solderless-breadboard/,Prototyping platform for initial assembly
-Jumper Wire Kit (M-M and M-F),1,1.20,https://robu.in/product/40-pcs-male-to-male-dupont-cable-20cm/,Connections between components on breadboard
-Micro USB Cable,1,0.80,https://robu.in/product/micro-usb-cable/,Power and programming for ESP32
-PLA Filament (estimated for enclosure),1,1.50,,3D printing material for the custom enclosure (approx 40g)
+ESP32 DevKit V1 (WROOM-32),1,7.50,https://thinkingrobot.in/products/esp32-wroom-32-devkit-v1-wi-fi-bluetooth-iot-board,Main microcontroller with WiFi Bluetooth 12-bit ADC and hardware PWM
+0.96 inch SSD1306 OLED Display I2C 128x64,1,4.75,https://robu.in/product/0-96-inch-i2c-iic-oled-lcd-module-4pin-with-vcc-gnd-blue/,Status dashboard display for showing light level motion lamp output and mode
+HC-SR501 PIR Motion Sensor Module,1,3.20,https://robu.in/product/pir-motion-sensor-detector-module-hc-sr501/,Passive infrared motion detection with adjustable sensitivity and hold time
+LDR Photoresistor GL5516 5mm (5-pack),1,2.40,https://robu.in/product/4mm-ldr-sensor-photoresistor-photo-cell-5-10k-gl4516/,Ambient light sensing through analog voltage divider circuit
+10kΩ Carbon Film Resistor 1/4W (pack of 20),1,1.80,https://robu.in/product/10k-ohm-0-25w-carbon-film-resistor/,Pull-down resistor for LDR voltage divider and spare resistors
+220Ω Carbon Film Resistor 1/4W (pack of 20),1,1.80,https://robu.in/product/220-ohm-0-25w-carbon-film-resistor/,MOSFET gate current-limiting resistor and spare LED protection resistors
+AO3400A N-Channel MOSFET SOT-23 (pack of 5),1,2.80,https://robu.in/product/ao3400a-n-channel-mosfet/,Logic-level N-channel MOSFET for low-side PWM lamp switching at 3.3V gate drive
+5V USB LED Light Strip 30cm Warm White,1,3.50,https://robu.in/product/5v-led-light/,Primary warm white light source switched via MOSFET PWM
+Tactile Push Button Switch 6x6x5mm (pack of 10),1,2.20,https://robu.in/product/6x6x5-mm-tactile-push-button-switch/,Three buttons for mode toggle brightness up and brightness down controls
+830-Point Solderless Breadboard,1,3.80,https://robu.in/product/830-points-solderless-breadboard/,Main prototyping and assembly platform
+Male-to-Male Dupont Jumper Wires 20cm (40 pcs),1,2.60,https://robu.in/product/40-pcs-male-to-male-dupont-cable-20cm/,Breadboard-to-breadboard signal and power connections
+Male-to-Female Dupont Jumper Wires 20cm (40 pcs),1,2.60,https://robu.in/product/40-pcs-male-to-female-dupont-cable-20cm/,Sensor and display module connections to breadboard
+Micro USB Data Cable 1m,1,2.80,https://robu.in/product/micro-usb-cable/,ESP32 power supply and firmware upload cable
+Custom 3D Printed Enclosure — Base Shell (PLA opaque),1,5.50,https://www.3ding.in/,Custom 3D printed base shell housing all electronics and sensors
+Custom 3D Printed Enclosure — Diffuser Cap (Translucent PETG),1,4.20,https://www.3ding.in/,Custom 3D printed translucent diffuser cap for soft even light output
+3D Printing Order Shipping and Handling,1,3.50,,Delivery charges for custom 3D printed enclosure parts
+M2 Brass Standoff Spacer and Screw Assortment Kit,1,2.50,https://robu.in/product/m2-standoff-kit/,PCB mounting standoffs and screws for securing ESP32 inside enclosure
+Prototype Perfboard PCB 5x7cm Double-Sided (pack of 3),1,2.80,https://robu.in/product/5x7cm-prototype-pcb/,Soldered final assembly board for permanent wiring
+Heat Shrink Tubing Assortment Kit (various diameters),1,1.80,https://robu.in/product/heat-shrink-tubing/,Wire insulation joints and strain relief for clean wiring
