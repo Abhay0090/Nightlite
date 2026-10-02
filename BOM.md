@@ -13,15 +13,10 @@
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
 | [ESP32 DevKit V1](https://thinkingrobot.in/products/esp32-wroom-32-devkit-v1-wi-fi-bluetooth-iot-board) | Main ESP32-WROOM-32 controller with WiFi and Bluetooth | 1 | $7.00 | $7.00 | [Thinkingrobot](https://thinkingrobot.in/products/esp32-wroom-32-devkit-v1-wi-fi-bluetooth-iot-board) |
-| [AO3400A N-Channel MOSFET (SOT-23)](https://robu.in/product/ao3400a-n-channel-mosfet/) | Logic-level MOSFET for PWM lamp switching | 1 | $0.15 | $0.15 | [Robu](https://robu.in/product/ao3400a-n-channel-mosfet/) |
-| [5V USB LED Lamp Module](https://robu.in/product/5v-led-light/) | Primary light source switched by MOSFET | 1 | $1.20 | $1.20 | [Robu](https://robu.in/product/5v-led-light/) |
-| [Tactile Push Button (6x6mm)](https://robu.in/product/6x6x5-mm-tactile-push-button-switch/) | Mode toggle and brightness up/down controls (3 buttons) | 3 | $0.09 | $0.27 | [Robu](https://robu.in/product/6x6x5-mm-tactile-push-button-switch/) |
-| [Breadboard (830 point)](https://robu.in/product/830-points-solderless-breadboard/) | Prototyping platform for initial assembly | 1 | $1.50 | $1.50 | [Robu](https://robu.in/product/830-points-solderless-breadboard/) |
-| [Jumper Wire Kit (M-M and M-F)](https://robu.in/product/40-pcs-male-to-male-dupont-cable-20cm/) | Connections between components on breadboard | 1 | $1.20 | $1.20 | [Robu](https://robu.in/product/40-pcs-male-to-male-dupont-cable-20cm/) |
 | [Micro USB Cable](https://robu.in/product/micro-usb-cable/) | Power and programming for ESP32 | 1 | $0.80 | $0.80 | [Robu](https://robu.in/product/micro-usb-cable/) |
 | PLA Filament (estimated for enclosure) | 3D printing material for the custom enclosure (approx 40g) | 1 | $1.50 | $1.50 | — |
-| **Parts subtotal** | — | — | — | **$13.62** | — |
+| **Parts subtotal** | — | — | — | **$9.30** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$13.62** | — |
+| **Total** | — | — | — | **$9.30** | — |
 
-$51.38 left of the tier's funding.
+$55.70 left of the tier's funding.
