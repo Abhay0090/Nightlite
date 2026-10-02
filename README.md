@@ -2,7 +2,7 @@
 
 **An ESP32-based automatic desk/night lamp that senses ambient light and motion to intelligently control a lamp.**
 
-> **Project status**: Design complete, firmware written, awaiting hardware for physical assembly and testing. This is a [Hack Club Half Life](https://halflife.hackclub.com) Warm-Up project.
+> **Project status**: Design complete, firmware written, awaiting hardware for physical assembly and testing.
 
 ![NightLite concept render](images/nightlite-concept.svg)
 
@@ -15,21 +15,23 @@ NightLite combines an ambient-light sensor, a motion detector, and a small OLED 
 - **☀️ Bright-room detection**: The lamp stays completely off when the room is already well-lit.
 - **🎛️ Manual mode**: Three buttons let you take manual control of brightness at any time.
 - **📊 OLED dashboard**: A 0.96″ display shows real-time light level, motion status, lamp output, and current mode.
-- **📦 Custom enclosure**: A planned 3D-printed case turns this from a breadboard prototype into an actual desk lamp.
+- **📦 Custom enclosure**: A 3D-printed case turns this from a breadboard prototype into an actual desk lamp.
 
 ## Hardware
 
 | Part | Role | Approx. cost |
 |---|---|---|
-| ESP32 DevKit V1 | Main controller (WiFi, 12-bit ADC, LEDC PWM) | $5.00 |
-| LDR + 10kΩ resistor | Ambient-light voltage divider | $0.19 |
-| HC-SR501 PIR | Motion detection (3–7 m range) | $0.63 |
-| 0.96″ SSD1306 OLED | I²C status display (128×64 pixels) | $2.24 |
-| AO3400A N-Channel MOSFET | Logic-level PWM lamp switching | $0.15 |
-| 5V LED lamp module | Primary light source | $1.20 |
-| 3× tactile buttons | Mode toggle + brightness up/down | $0.09 |
+| ESP32 DevKit V1 | Main controller (WiFi, 12-bit ADC, LEDC PWM) | $7.50 |
+| LDR + 10kΩ resistor | Ambient-light voltage divider | $4.20 |
+| HC-SR501 PIR | Motion detection (3–7 m range) | $3.20 |
+| 0.96″ SSD1306 OLED | I²C status display (128×64 pixels) | $4.75 |
+| AO3400A N-Channel MOSFET | Logic-level PWM lamp switching | $2.80 |
+| 5V LED strip (warm white) | Primary light source | $3.50 |
+| 3× tactile buttons | Mode toggle + brightness up/down | $2.20 |
+| Custom 3D printed enclosure | Base shell + translucent diffuser cap | $13.20 |
+| Misc (breadboard, wires, perfboard, standoffs, etc.) | Prototyping and assembly | $15.20 |
 
-**Total estimated cost: ~$14.51** (sourced from India via robu.in and thinkingrobot.in)
+**Total estimated cost: ~$56.55** (sourced from India via [robu.in](https://robu.in) and [thinkingrobot.in](https://thinkingrobot.in), 3D printing via [3ding.in](https://www.3ding.in))
 
 The full, machine-readable parts list is in [`bom.csv`](bom.csv).
 
@@ -78,7 +80,6 @@ The full, machine-readable parts list is in [`bom.csv`](bom.csv).
 Nightlite/
 ├── README.md               ← You are here
 ├── bom.csv                 ← Machine-readable bill of materials
-├── BOM.md                  ← Half Life platform mirror
 ├── JOURNAL.md              ← Development journal / devlog
 ├── src/
 │   └── nightlite.ino       ← Complete ESP32 firmware
@@ -87,9 +88,7 @@ Nightlite/
 │   ├── FIRMWARE.md         ← Firmware control logic and calibration
 │   ├── WIRING.md           ← Complete wiring guide with diagrams
 │   ├── ENCLOSURE.md        ← Enclosure design specification
-│   ├── 17-HOUR-PLAN.md     ← Build plan with evidence checklist
-│   ├── JOURNAL.md          ← Extended dev journal
-│   └── PROJECT_DASHBOARD.md← Live project status dashboard
+│   └── JOURNAL.md          ← Extended dev journal
 ├── schematic/
 │   └── nightlite.svg       ← Formal electrical schematic
 ├── cad/
@@ -133,9 +132,8 @@ See [`docs/FIRMWARE.md`](docs/FIRMWARE.md) for detailed calibration instructions
 | [`docs/DESIGN.md`](docs/DESIGN.md) | Architecture decisions and functional flow |
 | [`docs/FIRMWARE.md`](docs/FIRMWARE.md) | Control logic, PWM, debouncing, calibration |
 | [`docs/WIRING.md`](docs/WIRING.md) | Complete wiring with circuit diagrams |
-| [`docs/ENCLOSURE.md`](docs/ENCLOSURE.md) | Enclosure design and printing guide |
-| [`docs/17-HOUR-PLAN.md`](docs/17-HOUR-PLAN.md) | 17-hour build plan with evidence checklist |
+| [`docs/ENCLOSURE.md`](docs/ENCLOSURE.md) | Enclosure design and 3D printing guide |
 
 ## License
 
-This project is open source — built for learning and for the Hack Club community. 🎉
+This project is open source — built for learning and sharing. 🎉
