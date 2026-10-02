@@ -1,30 +1,53 @@
 # NightLite Wiring
 
-## Core connections
+## Pin map
 
-| Part | ESP32 |
-|---|---|
-| LDR divider output | GPIO34 (ADC) |
-| PIR OUT | GPIO27 |
-| MOSFET gate | GPIO25 |
+| Function | ESP32 |
+|---|---:|
+| LDR divider midpoint | GPIO34 (ADC) |
+| HC-SR501 PIR OUT | GPIO27 |
+| Lamp MOSFET gate | GPIO25 |
 | OLED SDA | GPIO21 |
 | OLED SCL | GPIO22 |
-| OLED VCC | 3.3V |
-| OLED GND | GND |
-| Mode button | GPIO14 to GND |
-| Brightness + button | GPIO26 to GND |
-| Brightness - button | GPIO33 to GND |
+| Mode button | GPIO14 → GND |
+| Brightness + | GPIO26 → GND |
+| Brightness − | GPIO33 → GND |
 
 ## LDR divider
 
-Connect the LDR and a 10k ohm resistor as a voltage divider. Feed the divider midpoint to GPIO34.
+Recommended initial arrangement: `3.3V → LDR → GPIO34 → 10kΩ → GND`. The exact ADC direction must be verified on the physical prototype; the firmware currently assumes brighter light produces a higher ADC reading.
+
+## PIR
+
+- VCC → module-appropriate supply
+- OUT → GPIO27
+- GND → common GND
+
+Confirm the exact HC-SR501 module's output behavior before final assembly.
+
+## OLED
+
+Typical SSD1306 I²C wiring: VCC → 3.3V, GND → GND, SDA → GPIO21, SCL → GPIO22. Firmware assumes I²C address `0x3C`; verify the purchased module.
 
 ## Lamp driver
 
-Use a logic-level N-channel MOSFET as a low-side switch. Lamp negative goes to MOSFET drain, MOSFET source goes to GND, and GPIO25 drives the gate. The lamp positive terminal goes to the regulated 5V supply.
+`5V → LED lamp +`  
+`LED lamp − → MOSFET drain`  
+`MOSFET source → GND`  
+`GPIO25 → MOSFET gate`
 
-**Important:** never connect the lamp load directly to an ESP32 GPIO.
+Use a logic-level N-channel MOSFET rated for the actual lamp current. **Never connect the lamp directly to an ESP32 GPIO.**
+
+## Buttons
+
+Each button connects between its GPIO and GND. Firmware uses internal pull-ups.
 
 ## Power
 
-Prototype from a regulated USB 5V supply. The ESP32 can be powered from its USB connector. Keep grounds common between the ESP32, PIR, OLED and lamp driver.
+Use regulated USB 5V for the prototype. Keep controller, PIR, OLED and MOSFET grounds common.
+
+## Schematic
+
+![NightLite schematic](../schematic/nightlite.svg)
+
+All values and connections must be checked against the exact purchased modules before claiming a tested build.
