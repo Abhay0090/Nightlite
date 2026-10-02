@@ -13,10 +13,6 @@
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
 | [ESP32 DevKit V1](https://thinkingrobot.in/products/esp32-wroom-32-devkit-v1-wi-fi-bluetooth-iot-board) | Main ESP32-WROOM-32 controller with WiFi and Bluetooth | 1 | $7.00 | $7.00 | [Thinkingrobot](https://thinkingrobot.in/products/esp32-wroom-32-devkit-v1-wi-fi-bluetooth-iot-board) |
-| [HC-SR501 PIR Motion Sensor](https://robu.in/product/pir-motion-sensor-detector-module-hc-sr501/) | Detects human motion for automatic lighting activation | 1 | $0.63 | $0.63 | [Robu](https://robu.in/product/pir-motion-sensor-detector-module-hc-sr501/) |
-| [LDR Photoresistor (GL5516)](https://robu.in/product/4mm-ldr-sensor-photoresistor-photo-cell-5-10k-gl4516/) | Measures ambient light through an analog voltage divider | 1 | $0.18 | $0.18 | [Robu](https://robu.in/product/4mm-ldr-sensor-photoresistor-photo-cell-5-10k-gl4516/) |
-| [10k Ohm Resistor (1/4W)](https://robu.in/product/10k-ohm-0-25w-carbon-film-resistor/) | LDR voltage divider pull-down resistor | 1 | $0.01 | $0.01 | [Robu](https://robu.in/product/10k-ohm-0-25w-carbon-film-resistor/) |
-| [220 Ohm Resistor (1/4W)](https://robu.in/product/220-ohm-0-25w-carbon-film-resistor/) | MOSFET gate current-limiting resistor | 1 | $0.01 | $0.01 | [Robu](https://robu.in/product/220-ohm-0-25w-carbon-film-resistor/) |
 | [AO3400A N-Channel MOSFET (SOT-23)](https://robu.in/product/ao3400a-n-channel-mosfet/) | Logic-level MOSFET for PWM lamp switching | 1 | $0.15 | $0.15 | [Robu](https://robu.in/product/ao3400a-n-channel-mosfet/) |
 | [5V USB LED Lamp Module](https://robu.in/product/5v-led-light/) | Primary light source switched by MOSFET | 1 | $1.20 | $1.20 | [Robu](https://robu.in/product/5v-led-light/) |
 | [Tactile Push Button (6x6mm)](https://robu.in/product/6x6x5-mm-tactile-push-button-switch/) | Mode toggle and brightness up/down controls (3 buttons) | 3 | $0.09 | $0.27 | [Robu](https://robu.in/product/6x6x5-mm-tactile-push-button-switch/) |
@@ -24,8 +20,8 @@
 | [Jumper Wire Kit (M-M and M-F)](https://robu.in/product/40-pcs-male-to-male-dupont-cable-20cm/) | Connections between components on breadboard | 1 | $1.20 | $1.20 | [Robu](https://robu.in/product/40-pcs-male-to-male-dupont-cable-20cm/) |
 | [Micro USB Cable](https://robu.in/product/micro-usb-cable/) | Power and programming for ESP32 | 1 | $0.80 | $0.80 | [Robu](https://robu.in/product/micro-usb-cable/) |
 | PLA Filament (estimated for enclosure) | 3D printing material for the custom enclosure (approx 40g) | 1 | $1.50 | $1.50 | — |
-| **Parts subtotal** | — | — | — | **$14.45** | — |
+| **Parts subtotal** | — | — | — | **$13.62** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$14.45** | — |
+| **Total** | — | — | — | **$13.62** | — |
 
-$50.55 left of the tier's funding.
+$51.38 left of the tier's funding.
