@@ -10,7 +10,6 @@ NightLite is a compact automatic desk/night lamp designed around an ESP32 DevKit
 - Provide a simple manual override with up/down brightness buttons.
 - Show live status (light level, motion, lamp output, mode) on a 0.96″ OLED.
 - Fit all electronics into a compact 3D-printed enclosure suitable for a desk or nightstand.
-- Keep total cost under the Hack Club Half Life Tier 2 budget ($65).
 
 ## Functional flow
 
@@ -67,21 +66,20 @@ AUTO     MANUAL
 
 ### Why SSD1306 OLED?
 
-- Ubiquitous, cheap (~₹185 / $2.24 in India).
+- Ubiquitous, cheap, widely available.
 - I²C interface: only 2 wires (SDA, SCL) — saves GPIOs.
 - 128×64 pixels is enough for a 5-line status dashboard.
 - Well-supported by the Adafruit SSD1306 library.
 
 ### Why HC-SR501 PIR?
 
-- Cheap (~₹52 / $0.63), widely available.
 - Self-contained module with built-in amplifier and comparator.
 - Adjustable sensitivity and hold time via onboard potentiometers.
 - Digital output (HIGH/LOW) — no analog processing needed on ESP32.
 
 ## Prototype scope
 
-This repository documents the **design and first firmware prototype**. Physical assembly and real-world testing are planned but **not yet claimed as complete**. Key calibration values (`DARK_THRESHOLD`, LDR divider orientation) are design estimates that must be verified on the real hardware.
+This repository documents the design and firmware. Physical assembly and real-world testing are planned but not yet complete. Key calibration values (`DARK_THRESHOLD`, LDR divider orientation) are design estimates that must be verified on the real hardware.
 
 ## Future improvements
 
