@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="1200" height="700" fill="#f5f5f5"/>
+<rect x="360" y="90" width="480" height="520" rx="40" fill="#222" stroke="#555" stroke-width="8"/>
+<rect x="455" y="145" width="290" height="125" rx="12" fill="#071a12" stroke="#aaa" stroke-width="5"/>
+<text x="600" y="185" text-anchor="middle" font-family="Arial" font-size="28" fill="white">NIGHTLITE</text>
+<text x="600" y="220" text-anchor="middle" font-family="Arial" font-size="22" fill="white">Light 18% • Motion YES</text>
+<text x="600" y="250" text-anchor="middle" font-family="Arial" font-size="22" fill="white">Lamp 100% • AUTO</text>
+<circle cx="430" cy="350" r="28" fill="#ddd"/>
+<circle cx="500" cy="350" r="28" fill="#ddd"/>
+<circle cx="570" cy="350" r="28" fill="#ddd"/>
+<rect x="445" y="425" width="310" height="95" rx="45" fill="#eee"/>
+<circle cx="600" cy="472" r="48" fill="#fff3a6" stroke="#777" stroke-width="5"/>
+<path d="M540 525 Q600 650 660 525" fill="#fff3a6" stroke="#777" stroke-width="5"/>
+<text x="600" y="665" text-anchor="middle" font-family="Arial" font-size="24" fill="#222">ESP32 • LDR • PIR • OLED • PWM LED</text>
+<text x="55" y="165" font-family="Arial" font-size="26" fill="#222">LDR</text>
+<text x="55" y="200" font-family="Arial" font-size="20" fill="#555">Ambient light</text>
+<line x1="160" y1="190" x2="350" y2="220" stroke="#555" stroke-width="4"/>
+<text x="875" y="165" font-family="Arial" font-size="26" fill="#222">PIR</text>
+<text x="875" y="200" font-family="Arial" font-size="20" fill="#555">Motion sensing</text>
+<line x1="850" y1="190" x2="760" y2="260" stroke="#555" stroke-width="4"/>
+<text x="875" y="410" font-family="Arial" font-size="26" fill="#222">PWM lamp</text>
+<text x="875" y="445" font-family="Arial" font-size="20" fill="#555">MOSFET switched</text>
+<line x1="850" y1="430" x2="755" y2="455" stroke="#555" stroke-width="4"/>
+</svg>
