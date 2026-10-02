@@ -22,14 +22,13 @@
 | [830-Point Solderless Breadboard](https://www.amazon.in/s?k=830+Point+Solderless+Breadboard) | Main prototyping and assembly platform | 1 | $4.50 | $4.50 | [Amazon](https://www.amazon.in/s?k=830+Point+Solderless+Breadboard) |
 | [Male-to-Male Dupont Jumper Wires 20cm (40 pcs)](https://www.amazon.in/s?k=Dupont+Jumper+Wires+Male+to+Male) | Breadboard-to-breadboard signal and power connections | 1 | $3.00 | $3.00 | [Amazon](https://www.amazon.in/s?k=Dupont+Jumper+Wires+Male+to+Male) |
 | [Male-to-Female Dupont Jumper Wires 20cm (40 pcs)](https://www.amazon.in/s?k=Dupont+Jumper+Wires+Male+to+Female) | Sensor and display module connections to breadboard | 1 | $3.00 | $3.00 | [Amazon](https://www.amazon.in/s?k=Dupont+Jumper+Wires+Male+to+Female) |
-| [Micro USB Data Cable 1m](https://www.amazon.in/s?k=Micro+USB+Data+Cable) | ESP32 power supply and firmware upload cable | 1 | $3.50 | $3.50 | [Amazon](https://www.amazon.in/s?k=Micro+USB+Data+Cable) |
 | [Custom 3D Printed Enclosure — Base Shell (PLA opaque)](https://www.3ding.in/) | Custom 3D printed base shell housing all electronics and sensors | 1 | $5.50 | $5.50 | [3ding](https://www.3ding.in/) |
 | [Custom 3D Printed Enclosure — Diffuser Cap (Translucent PETG)](https://www.3ding.in/) | Custom 3D printed translucent diffuser cap for soft even light output | 1 | $4.20 | $4.20 | [3ding](https://www.3ding.in/) |
 | [3D Printing Order Shipping and Handling](https://www.3ding.in/) | Delivery charges for custom 3D printed enclosure parts | 1 | $3.50 | $3.50 | [3ding](https://www.3ding.in/) |
 | [M2 Brass Standoff Spacer and Screw Assortment Kit](https://www.amazon.in/s?k=M2+Brass+Standoff+Spacer+Kit) | PCB mounting standoffs and screws for securing ESP32 inside enclosure | 1 | $3.50 | $3.50 | [Amazon](https://www.amazon.in/s?k=M2+Brass+Standoff+Spacer+Kit) |
 | [Prototype Perfboard PCB 5x7cm Double-Sided (pack of 3)](https://www.amazon.in/s?k=Prototype+Perfboard+PCB+5x7cm) | Soldered final assembly board for permanent wiring | 1 | $3.50 | $3.50 | [Amazon](https://www.amazon.in/s?k=Prototype+Perfboard+PCB+5x7cm) |
-| **Parts subtotal** | — | — | — | **$61.20** | — |
+| **Parts subtotal** | — | — | — | **$57.70** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$61.20** | — |
+| **Total** | — | — | — | **$57.70** | — |
 
-$3.80 left of the tier's funding.
+$7.30 left of the tier's funding.
