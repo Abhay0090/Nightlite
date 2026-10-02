@@ -1,12 +1,12 @@
 # NightLite — Extended Dev Journal
 
-This journal documents the development process in more detail than the root `JOURNAL.md`. It captures design decisions, problems encountered, and lessons learned.
+This journal documents the development process in detail. It captures design decisions, problems encountered, and lessons learned.
 
 ## Session 1: Why this project?
 
-I wanted a warm-up project that hits several learning goals at once:
+I wanted a project that hits several learning goals at once:
 - **Analog sensors**: The LDR voltage divider teaches analog input, ADC resolution, and calibration.
-- **Digital sensors**: The PIR module teaches digital input, interrupts (future), and timeout logic.
+- **Digital sensors**: The PIR module teaches digital input and timeout logic.
 - **Output control**: PWM through a MOSFET teaches power electronics basics without dealing with high voltage.
 - **Display**: The SSD1306 OLED teaches I²C communication, graphics libraries, and UI design on constrained hardware.
 - **Embedded state machines**: The AUTO/MANUAL mode system is a simple but real state machine.
@@ -21,19 +21,19 @@ I considered three microcontrollers:
 |---|---|---|---|---|---|---|
 | Arduino Uno | 10-bit, 6 ch | Software timers | Yes | No | ~$5 | Too limited |
 | Arduino Nano | 10-bit, 8 ch | Software timers | Yes | No | ~$3 | Better, but no WiFi |
-| ESP32 DevKit V1 | 12-bit, 18 ch | Hardware LEDC | Yes | Yes + BLE | ~$5 | ✅ Winner |
+| ESP32 DevKit V1 | 12-bit, 18 ch | Hardware LEDC | Yes | Yes + BLE | ~$7.50 | ✅ Winner |
 
-The ESP32 costs about the same as a Nano but gives me WiFi (for future features), a better ADC, and hardware PWM. The only downside is it's 3.3V logic, which means I need a logic-level MOSFET.
+The ESP32 costs a bit more but gives WiFi (for future features), a better ADC, and hardware PWM. The only downside is 3.3V logic, which means I need a logic-level MOSFET.
 
 ## Session 3: The MOSFET problem
 
-My first instinct was to use an IRF520 MOSFET (they're everywhere in starter kits). But I looked at the datasheet and found the problem:
+My first instinct was to use an IRF520 MOSFET (they're everywhere in starter kits). But the datasheet revealed the problem:
 
 - IRF520 V_GS(th) = 2–4V
 - R_DS(on) specified at V_GS = 10V
 - At V_GS = 3.3V (ESP32 output), the MOSFET barely turns on
 
-This means the lamp would be dim and the MOSFET would overheat. Not good.
+This means the lamp would be dim and the MOSFET would overheat.
 
 The AO3400A solves this:
 - V_GS(th) = 0.65–1.45V
